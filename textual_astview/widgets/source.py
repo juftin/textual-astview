@@ -54,6 +54,7 @@ class Source(SourceInfo, can_focus=True):
         border: solid $primary-background-lighten-2;
         background: $panel;
         overflow: auto;
+        width: auto;
     }
 
     Source:focus {
